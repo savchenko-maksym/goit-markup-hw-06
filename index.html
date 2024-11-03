@@ -52,15 +52,15 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="burger-btn">
+        <button type="button" class="burger-btn" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger-btn"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">
+          <button class="mobile-menu-close" data-menu-close>
             <svg class="mobile-close-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -98,28 +98,28 @@
             <ul class="personal-soc-list">
               <li class="personal-soc-item">
                 <a href="" class="personal-soc-link">
-                  <svg class="personal-soc-icon" width="16" height="16">
+                  <svg class="personal-soc-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="personal-soc-item">
                 <a href="" class="personal-soc-link">
-                  <svg class="personal-soc-icon" width="16" height="16">
+                  <svg class="personal-soc-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="personal-soc-item">
                 <a href="" class="personal-soc-link">
-                  <svg class="personal-soc-icon" width="16" height="16">
+                  <svg class="personal-soc-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="personal-soc-item">
                 <a href="" class="personal-soc-link">
-                  <svg class="personal-soc-icon" width="16" height="16">
+                  <svg class="personal-soc-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -130,7 +130,7 @@
       </div>
     </header>
     <main>
-      <section class="main-title hidden">
+      <section class="main-title">
         <div class="container">
           <h1 class="main-title-text">Effective Solutions for Your Business</h1>
           <button type="button" class="main-title-btn" data-modal-open>
@@ -138,7 +138,7 @@
           </button>
         </div>
       </section>
-      <section class="properties-title section hidden">
+      <section class="properties-title section">
         <div class="container">
           <h2 class="properties visually-hidden">properties</h2>
           <ul class="properties-list">
@@ -193,7 +193,7 @@
           </ul>
         </div>
       </section>
-      <section class="personal section hidden">
+      <section class="personal section">
         <div class="container">
           <h2 class="personal-title">Our Team</h2>
           <ul class="personal-list">
@@ -368,7 +368,7 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio section hidden">
+      <section class="portfolio section">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -490,7 +490,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer hidden">
+    <footer class="footer section">
       <div class="container footer-wrap">
         <div class="container-logo">
           <a class="logo footer-logo" href="./index.html"
@@ -639,5 +639,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
