@@ -768,7 +768,6 @@ button {
 
 .footer-logo {
   margin-bottom: 16px;
-  /* display: inline-block; */
   display: flex;
   justify-content: center;
 }
@@ -894,4 +893,78 @@ flex-wrap: wrap;
 
 .footer-btn-icon{
   margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+
+
+ .footer-logo {
+  display: inline-block;
+}
+
+.footer-soc-media {
+  display: inline-block;
+}
+
+.footer-soc-text {
+  display: inline-block;
+}
+
+.footer-wrap {
+  padding-left: 108px;
+  padding-right: 108px;
+  display: flex;
+  row-gap: 72px;
+  column-gap: 24px;
+}
+
+
+.footer-form-wrapper {
+  display: inline-block;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-input {
+  width: 264px;
+}
+
+}
+
+@media screen and (min-width: 1158px) {
+
+.section {
+  padding: 120px 0;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  padding: 0 15px;
+  gap: 0;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+  justify-content: start;
+  flex-wrap: nowrap;
+}
+
+.footer-logo {
+  display: inline-block;
+}
+
+.container-logo {
+  margin-right: 120px;
+}
+
+.footer-soc-media {
+  margin-right: 80px;
+}
+
 }
